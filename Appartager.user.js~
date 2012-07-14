@@ -1,0 +1,6 @@
+// ==UserScript==
+// @name        Appartager
+// @namespace   http://www.appartager.com/*
+// @include     http://www.appartager.com/
+// @version     1
+// ==/UserScript==
