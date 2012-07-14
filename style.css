@@ -1,13 +1,50 @@
 #papa-annonce-menu{
-	overflow-y:auto;
-	top:100px;
-	background-color:blue;
-	position:fixed;
-	right: 0;
-	height:200px;
-	width:200px;
+    overflow-x:hidden;
+}
+
+#papa-annonce-menu li{
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    color: white;
+}
+
+#papa-annonce-menu {
+    margin: 0;
+    padding: 0;
+}
+
+#infscr-loading{
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 10px 10px 10px 10px;
+    bottom: 40px;
+    color: #FFFFFF;
+    left: 45%;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+}
+
+#papa-container{
+    color: #ccc;
+    padding: 5px;
+    overflow-y:auto;
+    top:150px;
+    position:fixed;
+    right: 0;
+    height:200px;
+    width:200px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    background-color: #0066CD;
 }
 
 #papa-annonce-menu li.visited a{
-	color: green;
+    color: #ccc;
 }
