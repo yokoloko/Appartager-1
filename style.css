@@ -1,0 +1,13 @@
+#papa-annonce-menu{
+	overflow-y:auto;
+	top:100px;
+	background-color:blue;
+	position:fixed;
+	right: 0;
+	height:200px;
+	width:200px;
+}
+
+#papa-annonce-menu li.visited a{
+	color: green;
+}
